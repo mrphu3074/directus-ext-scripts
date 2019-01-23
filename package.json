@@ -1,0 +1,32 @@
+{
+  "name": "directus-ext",
+  "version": "0.0.4",
+  "description": "",
+  "main": "bin/index.js",
+  "bin": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["directus", "directus extension"],
+  "homepage": "https://github.com/owner/project#readme",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mrphu3074/directus-ext-scripts.git"
+  },
+  "author": "mrphu3074@gmail.com",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "vue": "^2.5.22",
+    "vue-hot-reload-api": "^2.3.1",
+    "@vue/component-compiler-utils": "^2.5.0",
+    "sass": "^1.16.1",
+    "vue-template-compiler": "^2.5.22"
+  }
+}

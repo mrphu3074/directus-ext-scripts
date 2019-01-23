@@ -1,0 +1,17 @@
+{
+  "name": "page1",
+  "description": "description",
+  "authors": "author",
+  "version": "1.0.0",
+  "outDir": "./public/extensions/custom/pages",
+  "meta": {
+    "name": "Page 1",
+    "version": "1.0.0",
+    "icon": "home",
+    "translation": {}
+  },
+  "scripts": {
+    "dev": "../bin/index.js",
+    "build": "../bin/index.js build"
+  }
+}
